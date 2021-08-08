@@ -1,0 +1,11 @@
+Package: gglefse
+Type: Package
+Title: lefse analysis using usearch result, this package only can be used in Unix system
+Version: 0.0.1
+Author: ZhonghuiGai
+Maintainer: ZhonghuiGai <zhgai@aliyun.com>
+Description: Run LEfSe (LDA Effect Size) analysis using usearch result, three data is needed: ASV table, ASV taxa, and group information
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
