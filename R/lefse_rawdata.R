@@ -31,10 +31,10 @@ lefse_rawdata <- function(asv.path, taxa.path, group.path, lefse = TRUE){
   }
   # step 4 import the grouping metadata
   grp <- read.delim(group.path, header = FALSE)
-  stopifnot(length(colnames(ASV.taxa)[-1]) == length(grp[, 1]))
-  stopifnot(colnames(ASV.taxa)[-1] %in% grp[, 1])
   rownames(grp) <- grp[, 1]
   grp <- grp[colnames(ASV.taxa)[-1], ]
+  stopifnot(length(colnames(ASV.taxa)[-1]) == length(grp[, 1]))
+  stopifnot(colnames(ASV.taxa)[-1] %in% grp[, 1])
   rownames(grp) <- NULL
   # step 5 substitute the first row of ASV.taxa with the grouping information
   ASV.taxa.lefse <- rbind(colnames(ASV.taxa), ASV.taxa)
