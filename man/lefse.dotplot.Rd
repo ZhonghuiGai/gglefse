@@ -2,7 +2,7 @@
 % Please edit documentation in R/lefse.dotplot.R
 \name{lefse.dotplot}
 \alias{lefse.dotplot}
-\title{dot plot using data from lefse.res.clean function based on ggplot2}
+\title{dot plot using the data from lefse.res.clean function based on ggplot2}
 \usage{
 lefse.dotplot(data, p.size = 3)
 }
@@ -23,7 +23,7 @@ lefse.dotplot(data, p.size = 3)
 a ggplot obj
 }
 \description{
-dot plot using data from lefse.res.clean function based on ggplot2
+dot plot using the data from lefse.res.clean function based on ggplot2
 }
 \author{
 ZhonghuiGai

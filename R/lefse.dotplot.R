@@ -1,4 +1,4 @@
-#' dot plot using data from lefse.res.clean function based on ggplot2
+#' dot plot using the data from lefse.res.clean function based on ggplot2
 #'
 #' @param data the input data from lefse.res.clean func
 #' @param p.size the size of point

@@ -3,4 +3,5 @@
 export(lefse)
 export(lefse.dotplot)
 export(lefse.res.clean)
+export(lefse_barplot)
 export(lefse_rawdata)
