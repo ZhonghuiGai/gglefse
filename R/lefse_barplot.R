@@ -3,7 +3,7 @@
 #' @param data a data frame containing markers, grouping and LDA_value information
 #' @param size the width of bar
 #' @param col the col of bars, default value if NULL
-#' @param tpye the color type of gfun::scale_color_manual2
+#' @param type the color type of gfun::scale_color_manual2
 #'
 #' @return a ggplot2 bar plot
 #' @export
@@ -16,7 +16,7 @@
 #' lefse.genus$markers <- factor(lefse.genus$markers, levels = lefse.genus$markers)
 #' lefse.genus$group <- factor(lefse.genus$group, levels = c("HC", "A", "B"), labels = c("HC", "No-NAs", "TDF"))
 #' lefse_barplot(data = lefse.genus) +  ggtheme::theme_size()
-lefse_barplot <- function(data, size = 0.5, col = NULL, tpye = "npg"){
+lefse_barplot <- function(data, size = 0.5, col = NULL, type = "npg"){
   # step 1 check the input data
   cat("This function uses markers, group, and LDA_value variables!\n")
   stopifnot("markers" %in% colnames(data))

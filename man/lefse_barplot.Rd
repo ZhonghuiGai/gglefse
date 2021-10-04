@@ -4,7 +4,7 @@
 \alias{lefse_barplot}
 \title{Draw a bar plot using the lefse analysis results}
 \usage{
-lefse_barplot(data, size = 0.5, col = NULL, tpye = "npg")
+lefse_barplot(data, size = 0.5, col = NULL, type = "npg")
 }
 \arguments{
 \item{data}{a data frame containing markers, grouping and LDA_value information}
@@ -13,7 +13,7 @@ lefse_barplot(data, size = 0.5, col = NULL, tpye = "npg")
 
 \item{col}{the col of bars, default value if NULL}
 
-\item{tpye}{the color type of gfun::scale_color_manual2}
+\item{type}{the color type of gfun::scale_color_manual2}
 }
 \value{
 a ggplot2 bar plot
