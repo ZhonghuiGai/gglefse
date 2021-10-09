@@ -25,7 +25,7 @@ lefse_barplot <- function(data, size = 0.5, col = NULL, type = "npg"){
   library(ggplot2)
   # step 2 draw the plot
   p <- ggplot(data = data, aes(x = markers, y = LDA_value, fill = group)) +
-    geom_col(colour = "white", size = 0.5) + coord_flip() + ggtheme::theme_pub() +
+    geom_col(colour = "white", size = size) + coord_flip() + ggtheme::theme_pub() +
     scale_y_continuous(expand = c(0, 0)) +
     xlab(NULL) +
     ylab("LDA SCORE (log 10)") +
