@@ -13,6 +13,9 @@ lefse_barplot_2grp(data, size = 0.5, col = NULL)
 
 \item{col}{the col of bars, default value if NULL}
 }
+\value{
+ggplot2 bar plot
+}
 \description{
 Draw a bar plot using the lefse analysis results
 }

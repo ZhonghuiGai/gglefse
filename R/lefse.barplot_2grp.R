@@ -4,7 +4,7 @@
 #' @param size the width of bar
 #' @param col the col of bars, default value if NULL
 #'
-#' @returna ggplot2 bar plot
+#' @return ggplot2 bar plot
 #' @export
 #'
 #' @author Zhonghui Gai
